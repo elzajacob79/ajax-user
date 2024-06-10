@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1 class="text-center mt-5 text-dark">DETAILS</h1>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <table class="table table-borderd mt-5 shadow">
+            <thead>
+                <tr>
+                    <th class="bg-dark text-light">ID</th>
+                    <th class="bg-dark text-light">NAME</th>
+                    <th class="bg-dark text-light">E-MAIL</th>
+                    <th class="bg-dark text-light">CITY</th>
+                    <th class="bg-dark text-light">COMPANY NAME</th>
+                </tr>
+
+            </thead>
+            <tbody id="result">
+            
+                    <tr>
+                    <td>1</td>
+                    <td>Leanne Graham </td>
+                    <td>Sincere@april.biz</td>
+                    <td>Gwenborough</td>
+                    <td>Romaguera-Crona</td>
+                    </tr>
+                    <tr>
+                    <td>2</td>
+                    <td>Ervin Howell </td>
+                    <td>Shanna@melissa.tv</td>
+                    <td>Wisokyburgh</td>
+                    <td>Deckow-Crist</td>
+                    </tr>
+                    <tr>
+                    <td>3</td>
+                    <td>Clementine Bauch </td>
+                    <td>Nathan@yesenia.net</td>
+                    <td>McKenziehaven</td>
+                    <td>Romaguera-Jacobson</td>
+                    </tr>
+                    <tr>
+                    <td>4</td>
+                    <td>Patricia Lebsack </td>
+                    <td>Julianne.OConner@kory.org</td>
+                    <td>South Elvis</td>
+                    <td>Robel-Corkery</td>
+                    </tr>
+                    <tr>
+                    <td>5</td>
+                    <td>Chelsey Dietrich </td>
+                    <td>Lucio_Hettinger@annie.ca</td>
+                    <td>Roscoeview</td>
+                    <td>Keebler LLC</td>
+                    </tr>
+                    <tr>
+                    <td>6</td>
+                    <td>Mrs. Dennis Schulist </td>
+                    <td>Karley_Dach@jasper.info</td>
+                    <td>South Christy</td>
+                    <td>Considine-Lockman</td>
+                    </tr>
+                    <tr>
+                    <td>7</td>
+                    <td>Kurtis Weissnat </td>
+                    <td>Telly.Hoeger@billy.biz</td>
+                    <td>Howemouth</td>
+                    <td>Johns Group</td>
+                    </tr>
+                    <tr>
+                    <td>8</td>
+                    <td>Nicholas Runolfsdottir V </td>
+                    <td>Sherwood@rosamond.me</td>
+                    <td>Aliyaview</td>
+                    <td>Abernathy Group</td>
+                    </tr>
+                    <tr>
+                    <td>9</td>
+                    <td>Glenna Reichert </td>
+                    <td>Chaim_McDermott@dana.io</td>
+                    <td>Bartholomebury</td>
+                    <td>Yost and Sons</td>
+                    </tr>
+                    <tr>
+                    <td>10</td>
+                    <td>Clementina DuBuque </td>
+                    <td>Rey.Padberg@karina.biz</td>
+                    <td>Lebsackbury</td>
+                    <td>Hoeger LLC</td>
+                    </tr></tbody>
+        </table>
+    </div>
+</div>
+    
+</body>
+<!--
+<script>
+    const http= new XMLHttpRequest()
+    http.open('get','https://jsonplaceholder.typicode.com/users')
+    http.send()
+    console.log(http.readyState);
+
+    http.onreadystatechange=()=>{
+        console.log(http.readyState);
+        
+        if(http.readyState==4){
+            if(http.status>=200 && http.status<300){
+                
+
+                let user= JSON.parse(http.responseText)
+                console.log(user);
+                user.forEach(item => {     
+                    result.innerHTML+=`
+                    <tr>
+                    <td>${item.id}</td>
+                    <td>${item.name} </td>
+                    <td>${item.email}</td>
+                    <td>${item.address.city}</td>
+                    <td>${item.company.name}</td>
+                    </tr>`
+                            });
+
+            }
+            else{
+                console.log('no proper response');
+            }
+
+        }
+        else{
+            console.log('no response');
+        }
+    }
+</script>
+<div id="loom-companion-mv3" ext-id="liecbddmkiiihnedobmlmillhodjkdmb"><section id="shadow-host-companion"></section></div>-->
+
+</html>
